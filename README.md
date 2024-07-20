@@ -47,7 +47,7 @@ This Todo List application allows users to register, log in, manage their todos,
    ```env
    PORT = 8000
    CORS_ORIGIN=*
-   mongodb_URI = mongodb+srv://mrbapun15:Suryansmita@mrbapun.1jpcn5r.mongodb.net
+   mongodb_URI = mongodb+srv://********jpcn5r.mongodb.net
    ACCESS_TOKEN_SECRET=123456
    ACCESS_TOKEN_EXPIRY=1d
    REFRESH_TOKEN_SECRET=123456
