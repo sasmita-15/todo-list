@@ -52,9 +52,7 @@ This Todo List application allows users to register, log in, manage their todos,
    ACCESS_TOKEN_EXPIRY=1d
    REFRESH_TOKEN_SECRET=123456
    REFRESH_TOKEN_EXPIRY=10d
-   CLOUDINARY_CLOUD_NAME=daigiongv
-   CLOUDINARY_API_KEY=154328846926123
-   CLOUDINARY_API_SECRET=A1zQRozVfvfQSN9KNDgeixRTD3g
+   
    ```
 
 5. **Run the backend server**
