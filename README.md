@@ -45,10 +45,16 @@ This Todo List application allows users to register, log in, manage their todos,
    Create a `.env` file in the `backend` directory with the following content:
 
    ```env
-   MONGODB_URI=mongodb://localhost:27017/todolist
-   ACCESS_TOKEN_SECRET=your_access_token_secret
-   REFRESH_TOKEN_SECRET=your_refresh_token_secret
-   CORS_ORIGIN=http://localhost:3000
+   PORT = 8000
+   CORS_ORIGIN=*
+   mongodb_URI = mongodb+srv://mrbapun15:Suryansmita@mrbapun.1jpcn5r.mongodb.net
+   ACCESS_TOKEN_SECRET=123456
+   ACCESS_TOKEN_EXPIRY=1d
+   REFRESH_TOKEN_SECRET=123456
+   REFRESH_TOKEN_EXPIRY=10d
+   CLOUDINARY_CLOUD_NAME=daigiongv
+   CLOUDINARY_API_KEY=154328846926123
+   CLOUDINARY_API_SECRET=A1zQRozVfvfQSN9KNDgeixRTD3g
    ```
 
 5. **Run the backend server**
@@ -58,8 +64,6 @@ This Todo List application allows users to register, log in, manage their todos,
    ```
 
    The server will be running at `http://localhost:8000`.
-
-
 
 ### Running Tests
 
